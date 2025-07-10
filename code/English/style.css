@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+nav ul {
+    direction: rtl;
+}
+
+* {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#blog {
+    padding: 10px;
+    margin: 10px;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 15px;
+    font-size: larger;
+}
+
+ul li:hover {
+    background-color: #3a3a99;
+}
+
+fieldset {
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+a {
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.a:hover {
+    background-color: #3a3a99;
+}
+
+span {
+    font-size: x-large;
+}
+
+.l {
+    direction: rtl;
+}
+
+.l a {
+    text-decoration: underline;
+}
+
+header {
+    background-color: #2d2d72;
+    padding: 20px;
+}
+
+.b:hover {
+    background-color: #28822d;
+}
+
+h1,
+h2 {
+    margin-bottom: 20px;
+}
+
+form label {
+    margin-bottom: 5px;
+}
+
+form input,
+button {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #2EB52E;
+    color: white;
+    width: 100%;
+}
+
+form button:hover {
+    background-color: #29832e;
+}
+
+footer {
+    text-align: center;
+    background-color: #000;
+    padding: 10px;
+}
+
+.s {
+    color: red;
+    font-size: large;
+}
+
+.x {
+    font-size: large
+}
+
+form input {
+    color: black;
+}
