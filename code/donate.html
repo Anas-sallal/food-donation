@@ -1,53 +1,0 @@
-﻿<!DOCTYPE html>
-<html lang="ar">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>تبرع بالطعام</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="img/icon" href="../assets/jpeg.ico">
-</head>
-<body>
-    <header>
-        <h1>🌛 التبرع بالطعام 🌜 </h1>
-        <nav>
-            <ul>
-                <li> <a href="request.html"> اطلب الطعام </a> </li>
-                <li> <a href="donate.html"> تبرع بالطعام </a> </li>
-                <li> <a href="about_us.html"> عنّا </a> </li>
-                <li> <a href="blog.html"> فضل التبرع بالطعام </a> </li>
-                <li> <a href="food_waste.html"> مخاطر إهدار الطعام </a> </li>
-                <li> <a href="index.html"> الصفحة الرئيسية </a> </li>
-            </ul>
-        </nav>
-    </header>
-    <section id="donate" style="margin: 15px;">
-        <h2>تبرع بالطعام</h2>
-        <p> إذا كنت تريد التبرع بالطعام ، يمكنك إرسال تبرعك هنا.</p>
-        <form method="post">
-            <fieldset>
-                <legend>املأ النموذج التالي</legend>
-                <span class="s">* </span> تعني مطلوب
-                <br><br>
-
-                <label for="donate-food-name"><span class="s">*</span>اسم الطعام:</label>
-                <input type="text" id="donate-food-name" name="donate-food-name" required autofocus autocomplete maxlength="30">
-                <br><br>
-
-                <label for="donate-quantity"><span class="s">*</span>الكمية بالكيلو:</label>
-                <input type="number" id="donate-quantity" min="1" max="100" name="donate-quantity" required
-                    autocomplete step="0.1">
-                <br><br>
-
-                <label for="donate-location"><span class="s">*</span>العنوان:</label>
-                <input type="text" size="55" id="donate-location" name="donate-location" required autocomplete>
-                <br><br>
-
-                <img src="../assets/Salad.jpg">
-                <button type="submit" id="donate-submit-btn"><span>تبرع الآن</span> </button>
-            </fieldset>
-        </form>
-
-    </section>
-</body>
-</html>
